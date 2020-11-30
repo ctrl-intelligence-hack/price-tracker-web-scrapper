@@ -1,0 +1,35 @@
+{
+    "name": "price-tracker-web-scrapper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "cron": "^1.8.2",
+        "nodemailer": "^6.4.16",
+        "puppeteer": "^5.5.0"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ctrl-intelligence-hack/price-tracker-web-scrapper.git"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Khabubu Ndivhuwo",
+        "email": "hello@khabubundivhu.co.za",
+        "url": "http://khabubundivhu.co.za"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ctrl-intelligence-hack/price-tracker-web-scrapper/issues"
+    },
+    "homepage": "https://github.com/ctrl-intelligence-hack/price-tracker-web-scrapper#readme"
+}
